@@ -2,7 +2,7 @@
 html {
     scroll-behavior: smooth;
   }
-@media (min-width: 1px) {
+
 body {
     margin: 0;
     display:flex;
@@ -82,4 +82,4 @@ section h1 {
     text-align: center;
     font-size:40px;
 }
-}
+
