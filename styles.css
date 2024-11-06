@@ -30,6 +30,11 @@ nav a {
     font-size: 25px;
     padding: 10px 25px;
     color: black;
+    transition: 0.1s all;
+}
+nav a:hover {
+    font-weight: bold;
+    font-size: 28px;
 }
 #back_img1 {
     padding: 0;
@@ -53,7 +58,7 @@ nav a {
 }
 #but_list {
     text-align: center;
-    margin-top: 27%;
+    margin-top: 55vb;
 }
 #but_list a{
     font-size: 50px;
@@ -82,4 +87,101 @@ section h1 {
     text-align: center;
     font-size:40px;
 }
+#goods {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+goods {
+    display: flex;
+    margin-bottom: 80px;
+}
 
+.gleft {
+    flex-direction: row;
+}
+.gright {
+    flex-direction: row-reverse;
+}
+
+goods img{
+    height: 600px;
+    background: radial-gradient(ellipse, #D9B88F 0%, #FAE9D5 70%)
+}
+.text {
+    font-size: 30px;
+    width: 100%;
+}
+
+goods h2 {
+    text-align: center;
+    font-size: 50px;
+}
+goods p {
+    padding-left: 40px;
+    text-indent: 20px;
+}
+
+.color {
+    position: absolute;
+    margin: 100px;
+    margin-top: 500px;
+    display: flex;
+    flex-direction: row;
+
+}
+#black {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 5px solid #000;
+    border-color: #A67968;
+    background-color: black;
+}
+#white {
+    margin-right: 30px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 5px solid #000;
+    border-color: #A67968;
+    background-color: rgb(255, 255, 255); 
+}
+#delivery {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+    font-size: 30px;
+    text-indent: 20px;    
+}
+
+#faq {
+    background-color: #e5cbac;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+    font-size: 30px;
+    text-indent: 20px;
+}
+details {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+summary:hover {
+    cursor: pointer;
+    user-select: none;
+}
+summary {
+    font-size: 42px;
+    border-top: 3px solid #A67968;
+    padding-top: 25px;
+    padding-bottom: 5px;
+    user-select: none;
+}
+.answer a {
+    text-decoration: none;
+    color:#8c5f4f
+}
+.answer a:hover {
+    color:#513931;
+}
