@@ -94,7 +94,7 @@ section h1 {
 }
 goods {
     display: flex;
-    margin-bottom: 80px;
+    margin-bottom: 12vh;
 }
 
 .gleft {
@@ -105,7 +105,7 @@ goods {
 }
 
 goods img{
-    height: 600px;
+    height: 55vh;
     background: radial-gradient(ellipse, #D9B88F 0%, #FAE9D5 70%)
 }
 .text {
@@ -125,14 +125,14 @@ goods p {
 .color {
     position: absolute;
     margin: 100px;
-    margin-top: 500px;
+    margin-top: 23dvi;
     display: flex;
     flex-direction: row;
 
 }
 #black {
-    width: 70px;
-    height: 70px;
+    width: 7vh;
+    height: 7vh;
     border-radius: 50%;
     border: 5px solid #000;
     border-color: #A67968;
@@ -140,8 +140,8 @@ goods p {
 }
 #white {
     margin-right: 30px;
-    width: 70px;
-    height: 70px;
+    width: 7vh;
+    height: 7vh;
     border-radius: 50%;
     border: 5px solid #000;
     border-color: #A67968;
