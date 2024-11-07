@@ -167,6 +167,9 @@ details {
     padding: 10px;
     margin-bottom: 10px;
 }
+#qfirst {
+    border-top: 0px solid #A67968;
+}
 summary:hover {
     cursor: pointer;
     user-select: none;
@@ -184,4 +187,18 @@ summary {
 }
 .answer a:hover {
     color:#513931;
+}
+.social-icons {
+    margin-left: 80vw;
+}
+.social-icons a {
+    font-size: 4.5em;
+    color: #FAE9D5;
+    margin: 0 10px;
+    transition: color 0.3s;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #A67968;
 }
